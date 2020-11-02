@@ -1,0 +1,246 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.nav{
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+a.nav:hover{
+    background-color: #bc6ff1;
+    color: #ffffff;
+}
+h1:hover{
+    background-color: #bc6ff1;
+    color: #ffffff;
+}
+h2:hover{
+    background-color: #bc6ff1;
+    color: #ffffff;
+}
+a:hover{
+    background-color: #bc6ff1;
+    color: #ffffff;
+}
+
+p::selection{
+    color: white;
+    background: #000000;
+}
+li::selection{
+    color: white;
+    background: #000000;
+}
+td::selection{
+    color: white;
+    background: #000000;
+}
+h1::selection{
+    color: white;
+    background: #000000;
+}
+h2::selection{
+    color: white;
+    background: #000000;
+}
+h3::selection{
+    color: white;
+    background: #000000;
+}
+img::selection{
+    color: white;
+    background: #000000;
+}
+b::selection{
+    color: white;
+    background: #000000;
+}
+a::selection{
+    color: white;
+    background: #000000;
+}
+label::selection{
+    color: white;
+    background: #000000;
+}
+
+h1{
+    display: inline;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+h2{
+    display: inline;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+p{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+li{
+    margin: 10px;
+    font-size: 1.7rem;
+    margin-left: 30px;
+}
+div.hade{
+    font-size: 50px;
+    visibility: hidden;
+}
+
+
+div.tittle{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    top: 5px;
+    color: black;
+}
+
+div.profil{
+    background-color: #892cdc;
+    position: absolute;
+    width: 100%;
+    height: 370px;
+    left: 0px;
+    top: 50px;
+    bottom: 10px;
+    z-index: -1;
+}
+div.profil2{
+    display: block;
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+}
+
+div.personal{
+    display: block;
+    background-color: #52057b;
+    position: absolute;
+    width: 100%;
+    height: 370px;
+    left: 0px;
+    top: 390px;
+    bottom: 30px;
+    z-index: -1;
+}
+
+table.personal{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+
+div.hobbies{
+    display: block;
+    background-color: #892cdc;
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    left: 0px;
+    top: 700px;
+    z-index: -1;
+}
+
+
+div.history{
+    display: block;
+    background-color: #52057b;
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    left: 0px;
+    top: 910px;
+    z-index: -1;
+}
+
+
+div.extrakurikuler{
+    display: block;
+    background-color: #892cdc;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    left: 0px;
+    top: 1270px;
+    z-index: -1;
+}
+
+
+div.skill{
+    display: block;
+    background-color: #52057b;
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    left: 0px;
+    top: 1580px;
+    z-index: -1;
+}
+table.skill{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+
+
+div.contactme{
+    display: block;
+    background-color: #892cdc;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    left: 0px;
+    top: 1850px;
+    z-index: -1;
+    text-align: center;
+}
+nav.btt{
+    display: block;
+    background-color: #892cdc;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 2350px;
+    z-index: -1;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.img{
+    position: relative;
+    width: 285px;
+    height: 285px;
+}
+
+@media only screen and (max-width: 1148px) {
+    h1{
+        font-size: 40px;
+    }
+    /*.img{
+        width: 50%;
+        height: 23%;
+    }*/
+    h2, h3{
+        font-size: 1.5em;
+    }
+    a.nav{
+        font-size: 13px; 
+    }
+    p, td, b, ul, li, label{
+        font-size: 20px; 
+    }
+}

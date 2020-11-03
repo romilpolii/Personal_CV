@@ -14,84 +14,85 @@ div.nav{
     z-index: 1;
 }
 a.nav:hover{
-    background-color: #bc6ff1;
-    color: #ffffff;
+    background-color: #e83bee;
+    color: #000000;
 }
 h1:hover{
-    background-color: #bc6ff1;
-    color: #ffffff;
+    background-color: #e83bee;
+    color: #000000;
 }
 h2:hover{
-    background-color: #bc6ff1;
-    color: #ffffff;
+    background-color: #e83bee;
+    color: #000000;
 }
 a:hover{
-    background-color: #bc6ff1;
-    color: #ffffff;
+    background-color: #e83bee;
+    color: #000000;
 }
 
 p::selection{
-    color: white;
-    background: #000000;
+    cbackground-color: #e83bee;
+    color: #000000;
 }
 li::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 td::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 h1::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 h2::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 h3::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 img::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 b::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 a::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 label::selection{
-    color: white;
-    background: #000000;
+    background-color: #e83bee;
+    color: #000000;
 }
 
 h1{
     display: inline;
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-left: 30px;
 }
 h2{
     display: inline;
     font-size: 2em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-left: 30px;
 }
 p{
     font-size: 1.7rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-left: 30px;
 }
 li{
     margin: 10px;
     font-size: 1.7rem;
     margin-left: 30px;
+    color: #ffffff;
 }
 div.hade{
     font-size: 50px;
@@ -105,7 +106,7 @@ div.tittle{
     text-align: center;
     font-size: 15px;
     top: 5px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 div.profil{
@@ -139,7 +140,7 @@ div.personal{
 
 table.personal{
     font-size: 1.7rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-left: 30px;
 }
 
@@ -191,7 +192,7 @@ div.skill{
 }
 table.skill{
     font-size: 1.7rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-left: 30px;
 }
 
@@ -230,10 +231,10 @@ nav.btt{
     h1{
         font-size: 40px;
     }
-    /*.img{
-        width: 50%;
-        height: 23%;
-    }*/
+    .img{
+        width: 200px;
+    height: 200px;
+    }
     h2, h3{
         font-size: 1.5em;
     }
@@ -242,5 +243,24 @@ nav.btt{
     }
     p, td, b, ul, li, label{
         font-size: 20px; 
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    h1{
+        font-size: 30px;
+    }
+    .img{
+        width: 180px;
+        height: 180px;
+    }
+    h2, h3{
+        font-size: 1em;
+    }
+    a.nav{
+        font-size: 8px; 
+    }
+    p, td, b, ul, li, label{
+        font-size: 15px; 
     }
 }

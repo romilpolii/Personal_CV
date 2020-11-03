@@ -31,7 +31,7 @@ a:hover{
 }
 
 p::selection{
-    cbackground-color: #e83bee;
+    background-color: #e83bee;
     color: #000000;
 }
 li::selection{
